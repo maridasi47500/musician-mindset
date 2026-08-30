@@ -8,15 +8,15 @@ Musician Flat est une application Ruby on Rails qui mélange deux univers :
 
     l’apprentissage du hacking mindset (comprendre, explorer, détourner, créer)
 
-    la pratique musicale assistée par une IA spécialisée dans l’entraînement musical
+    la pratique musicale  dans l’entraînement musical
 
 L’objectif est de proposer un espace où l’on peut :
 
-    manipuler des données informatiques (tables, modèles, seeds techniques)
+    manipuler des données informatiques (tables, modèles, seeds techniques) sans être dangereux se 
 
     afficher des formats lisibles comme human_size(123) => 123 Bytes
 
-    entraîner ou utiliser une IA musicale (inspirée d’un modèle type “IA Amazon entraînée”)
+
 
     choisir un hobby dans un profil utilisateur (musique, sport, jeux vidéo, mode, etc.)
 
@@ -26,7 +26,7 @@ L’objectif est de proposer un espace où l’on peut :
 
 L’application repose sur une idée simple :
 
-    Être un hacker, c’est comprendre comment les choses fonctionnent pour mieux créer.
+    Être un hacker, c’est comprendre comment les choses fonctionnent pour mieux créer. sans être dangereuse
 
 Ici, on apprend à :
 
@@ -36,7 +36,7 @@ Ici, on apprend à :
 
     comprendre les formats
 
-    explorer les possibilités de l’IA
+
 
     créer de la musique comme un artisan numérique
 
@@ -50,16 +50,19 @@ Ici, on apprend à :
 
     Stimulus / Turbo pour dynamiser l’interface
 
-    IA musicale (conceptuellement inspirée d’un modèle d’entraînement type Amazon Music AI)
+
 
 📦 Fonctionnalités principales
-🎼 1. IA musicale intégrée
 
-    Génération de musique : concertos, sonates, musique de chambre
+
+
 
     Entraînement sur des styles musicaux
 
     Accompagnement piano pour les instrumentistes
+    aller au centre commercial
+
+    collect technical terms
 
 🧩 2. Tables techniques
 
