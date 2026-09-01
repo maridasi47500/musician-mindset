@@ -1,0 +1,10 @@
+{% extends 'base.html' %}{% block content %}<form  enctype="multipart/form-data" method="POST">
+<div class="field"><label for="somefieldcomputing_terms_id">computing_terms_id</label><select id="somefieldcomputing_terms_id" name="computing_terms_id"><option value="novalue">no value</option>
+{% for somecomputing_terms in touslescomputing_terms %}
+<option value="{{ somecomputing_terms['id'] }}">{{ somecomputing_terms['name'] }}</option>{% endfor %}
+</select></div>
+<div class="field"><label for="somefieldprofiles_id">profiles_id</label><select id="somefieldprofiles_id" name="profiles_id"><option value="novalue">no value</option>
+{% for someprofiles in touslesprofiles %}
+<option value="{{ someprofiles['id'] }}">{{ someprofiles['name'] }}</option>{% endfor %}
+</select></div>
+<div class="field"><label for="somefieldprofilehascomputingtermlogscontent">content</label><input type="text" id="somefieldprofilehascomputingtermlogscontent" name="content"/></div><div class="actions"><input type="submit"/></div></form>{% for x in profilehascomputingtermlogss %}{{x["computing_terms_id"] }}{% endfor %}{% endblock %}{% block liens %}<a href="/">bienvenue</a><a href="/add_one_profilehascomputingtermlogs"> add one profilehascomputingtermlogs</a>{% endblock %}

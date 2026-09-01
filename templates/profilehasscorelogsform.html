@@ -1,0 +1,10 @@
+{% extends 'base.html' %}{% block content %}<form  enctype="multipart/form-data" method="POST">
+<div class="field"><label for="somefieldmusical_pieces_id">musical_pieces_id</label><select id="somefieldmusical_pieces_id" name="musical_pieces_id"><option value="novalue">no value</option>
+{% for somemusical_pieces in touslesmusical_pieces %}
+<option value="{{ somemusical_pieces['id'] }}">{{ somemusical_pieces['name'] }}</option>{% endfor %}
+</select></div>
+<div class="field"><label for="somefieldprofiles_id">profiles_id</label><select id="somefieldprofiles_id" name="profiles_id"><option value="novalue">no value</option>
+{% for someprofiles in touslesprofiles %}
+<option value="{{ someprofiles['id'] }}">{{ someprofiles['name'] }}</option>{% endfor %}
+</select></div>
+<div class="field"><label for="somefieldprofilehasscorelogscontent">content</label><input type="text" id="somefieldprofilehasscorelogscontent" name="content"/></div><div class="actions"><input type="submit"/></div></form>{% for x in profilehasscorelogss %}{{x["musical_pieces_id"] }}{% endfor %}{% endblock %}{% block liens %}<a href="/">bienvenue</a><a href="/add_one_profilehasscorelogs"> add one profilehasscorelogs</a>{% endblock %}

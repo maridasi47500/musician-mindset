@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block montitre %}
+debut de mes mots: bienvenue dans musician mindset
+{% endblock %}
+{% block content %}
+<h1># musician-mindset</h1>
+{% for x in users | reverse %}
+ <li>{{ x["first_name"]  }}</li>
+
+{% endfor %} 
+fin de mes mots : log à propos de musique, partitions et computing terms , amuse-toi bien
+{% endblock %}
+{% block liens %}
+<a href="/">welcome</a>
+{% endblock %}
