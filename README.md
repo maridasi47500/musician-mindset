@@ -2,6 +2,13 @@
 musician mindset
 🎵 Musician Flat
 Une application Rails pour apprendre à hacker… la musique.
+- demande à l'assistant Google
+- 
+- épelle Beethoven
+- épelle Wolfgang Amadeus Mozart
+- quand est ne Johann seBastian Bach
+- quelles sont les œuvres de Antonio Vivaldi 
+
 🚀 Présentation
 
 Musician Flat est une application Ruby on Rails qui mélange deux univers :
